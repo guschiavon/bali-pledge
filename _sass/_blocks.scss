@@ -1,0 +1,32 @@
+
+.illustrated-quote,
+.quote-content {
+  position    : relative;
+}
+
+.large-image {
+  width      : 50%;
+  height     : 100vh;
+}
+
+.quote-box {
+  position: absolute;
+  width: 40%;
+  right: 20%;
+  top: 25%;
+  padding: 5%;
+}
+
+.quote-name {
+  transform: translate(15rem, 8rem);
+  h3 {
+    font-size: 4rem;
+    margin: 0;
+  }
+}
+.quote-content {
+  transform: translateY(25%);
+  p {
+    font-size: 2rem;    
+  }
+}
