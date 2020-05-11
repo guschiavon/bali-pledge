@@ -1,32 +1,64 @@
 
 .illustrated-quote,
+.illustrated-quote-2,
 .quote-content {
   position    : relative;
 }
 
-.large-image {
-  width      : 50%;
-  height     : 100vh;
+.large-image-left {
+
+  height  : 900px;
 }
 
+.large-image-right {
+
+  height  : 900px;
+}
+
+// .illustrated-quote-2 {
+//   .quote-box {
+//     position: absolute;
+//     display: inline-block;
+//     width: 50%;
+//     right: 15%;
+//     top: 25%;
+//     padding: 5%;
+//   }
+//
+//   .quote-name {
+//     transform: translate(15rem, 8rem);
+//     h3 {
+//       font-size: 4rem;
+//       margin: 0;
+//     }
+//   }
+//   .quote-content {
+//
+//     p {
+//       font-size: 2rem;
+//     }
+//   }
+// } // Closes illustrated-quote-2
+
 .quote-box {
-  position: absolute;
-  width: 40%;
-  right: 20%;
-  top: 25%;
-  padding: 5%;
+  height: 900px;
+  // position: absolute;
+  display: inline-block;
+  // width: 50%;
+  // right: 15%;
+  // top: 25%;
+  padding: 20%;
 }
 
 .quote-name {
-  transform: translate(15rem, 8rem);
+  // transform: translate(15rem, 8rem);
   h3 {
     font-size: 4rem;
     margin: 0;
   }
 }
 .quote-content {
-  transform: translateY(25%);
   p {
-    font-size: 2rem;    
+    font-size: 2rem;
   }
 }

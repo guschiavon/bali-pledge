@@ -1,0 +1,10 @@
+<div class="padding-md bg-accent">
+  <div class="img-full">
+    {% assign path = page.main_image %}
+    {% assign alt = page.main_image_alt_text %}
+    {% include image.html path = page.main_image alt = page.main_image_alt_text %}
+    <div class="caption-lower">
+      <p>{{ alt }}</p>
+    </div>
+  </div>
+</div>

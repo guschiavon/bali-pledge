@@ -1,9 +1,9 @@
 # Basic settings
 basics:
-  site_title: Jekyll Bigfoot
-  description: A loaded Jekyll boilerplate optimized for CloudCannon CMS
+  site_title: Bali Pledge
+  description: To be in harmony with the local community, to protect Bali's natural resources, to respect the cultural and spiritual essence of Bali.
   site_base_url: 'https://mysite.com'
-  site_logo_image: '/bigfoot.png'
+  site_logo_image: '/assets/bali.svg'
   site_thumb_image: 'assets/images/placeholder-001.jpg'
   contact_email: 'example@me.com'
   phone_number: "+555 555 5555"
@@ -33,17 +33,18 @@ logos:
 
 # Global colors. Put HEX values between quotes otherwise it will act as a comment in YAML
 colors:
-  primary_color: "#222"
-  secondary_color: "#555"
-  primary_shade_color: "#363e36"
-  secondary_shade_color: "#565"
-  accent_color: "#999"
+  primary_color: "#333333"
+  secondary_color: "#383231"
+  primary_shade_color: "#aeaeae"
+  secondary_shade_color: "#999999"
+  accent_color: "#e9a547"
 
 # Typography (can be customized to accomodate more styles like standard font sizes and line height)
 fonts:
-  fonts_code_block:  '<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Nunito&display=swap" rel="stylesheet">' # Place between single quotes
-  body_font_family: "'Nunito', sans-serif;"
-  design_font_family: "'Abril Fatface', cursive;"
+  fonts_code_block:  '<link href="https://fonts.googleapis.com/css?family=Eczar:600,700|Noto+Serif+KR:200,400,500&display=swap&subset=devanagari" rel="stylesheet">
+' # Place between single quotes
+  body_font_family: "'Noto Serif KR', serif;"
+  design_font_family: "'Eczar', serif;"
 
 seo:
   fb_app_id: 123456789

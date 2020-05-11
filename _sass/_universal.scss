@@ -9,19 +9,22 @@ h3 {
 }
 
 h1 {
-  color           : $accent-color;
-  font-size       : 4rem;
-  text-transform  : uppercase;
+  // color           : $accent-color;
+  font-size       : 8rem;
+  // text-transform  : uppercase;
 }
 
 h2 {
-  color         : $secondary-color;
+  // color         : $secondary-color;
   font-size     : 2.5rem;
 }
 
 h3 {
-  color         : $secondary-shade;
+  // color         : $secondary-shade;
   font-size     : 2rem;
+}
+h4 {
+  font-family: 'Vimala', cursive ;
 }
 
 a {
@@ -32,4 +35,17 @@ p {
   font-family    : $body-font-family;
   font-size      : 1.5rem;
   line-height    : 1.5;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+}
+label {
+  display : block;
+  margin-top: 1rem;
+  color: $accent-color;
+  font-size: 1.2rem;
+  font-family: $body-font-family;
+  text-transform: uppercase;
 }
