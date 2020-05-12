@@ -1,6 +1,7 @@
 $(document).ready(function(){
   console.log('Pledge Loaded')
 
+
   $('.pledge-button').click(function(){
     $(this).toggleClass('active');
 

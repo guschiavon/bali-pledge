@@ -10,6 +10,7 @@ second_highlight_image: assets/images/bali-gus-schiavon-3.jpg
 second_highlight_image_alt_text: Some alt text
 third_highlight_image: assets/images/bali-gus-schiavon-4.jpg
 third_highlight_image_alt_text: Some alt text
+avatar_image: assets/images/bali-gus-schiavon-6.jpg
 sections:
 ---
 <main class="padding-lg flex-center full-height header">
@@ -181,6 +182,54 @@ sections:
         <input type="email" name="email" value="Your Email" placeholder="Your email">
         <button id="submit" type="button" name="button" class="submit-button"> validate my pledge</button>
       </form>
+    </div>
+  </div>
+</section>
+<section id="pledgers">
+  <h2>From Pledgers:</h2>
+  <div class="owl-carousel owl-theme">
+    <div class="pledge padding-md">
+      <div class="pledgers">
+        <div class="pledger-avatar">
+          {% assign path = page.avatar_image %}
+          {% assign alt = page.third_highlight_image_alt_text %}
+          {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
+        </div>
+        <div class="content">
+          <p>
+            Some other pledge content
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pledge padding-md">
+      <div class="pledgers">
+        <div class="pledger-avatar">
+          {% assign path = page.avatar_image %}
+          {% assign alt = page.third_highlight_image_alt_text %}
+          {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
+        </div>
+        <div class="content">
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pledge padding-md">
+      <div class="pledgers">
+        <div class="pledger-avatar">
+          {% assign path = page.avatar_image %}
+          {% assign alt = page.third_highlight_image_alt_text %}
+          {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

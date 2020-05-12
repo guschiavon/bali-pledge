@@ -31,6 +31,7 @@ $gallery-padding                 : 1.5rem;
   '_buttons',
   '_nav',
   '_blocks',
+  '_animate',
   '_media-queries';
 
 
@@ -65,7 +66,18 @@ $gallery-padding                 : 1.5rem;
   }
 }
 
+.pledgers {
+  padding: 2rem;
+}
 
+.pledger-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  img {
+    border-radius: 100%;
+  }
+}
 
 .section-icon {
   width: 60px;
