@@ -32,55 +32,10 @@ $gallery-padding                 : 1.5rem;
   '_nav',
   '_blocks',
   '_animate',
+  '_index',
+  '_footer',
   '_media-queries';
 
 
-.header {
-  background-image: url(/assets/images/agung.jpg);
-  background-position: center;
-  background-size: cover;
 
-  p {
-    color: $secondary-shade;
-  }
-}
-
-.pledge-form {
-  // display: none;
-  margin : auto;
-  margin-bottom: 3rem;
-  button,
-  input {
-    font-family: $body-font-family;
-  }
-  button {
-    padding: 1rem;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
-    background-color: $accent-color;
-  }
-  input [placeholder] {
-    color: $accent-color;
-  }
-}
-
-.pledgers {
-  padding: 2rem;
-}
-
-.pledger-avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  img {
-    border-radius: 100%;
-  }
-}
-
-.section-icon {
-  width: 60px;
-  margin: 0 auto 2rem;
-}
   // Alternatively, write your CSS/SCSS from here onwards

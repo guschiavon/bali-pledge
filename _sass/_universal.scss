@@ -1,8 +1,12 @@
 
+html {
+  scroll-behavior: smooth;
+}
 // Typography
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family     : $heading-font-family;
   margin-bottom   : $heading-default-bottom-margin;
   letter-spacing  : 2px;
@@ -11,6 +15,7 @@ h3 {
 h1 {
   // color           : $accent-color;
   font-size       : 8rem;
+  color: #fefefe;
   // text-transform  : uppercase;
 }
 
@@ -24,7 +29,7 @@ h3 {
   font-size     : 2rem;
 }
 h4 {
-  font-family: 'Vimala', cursive ;
+  font-size     : 1.2rem;
 }
 
 a {
@@ -37,9 +42,22 @@ p {
   line-height    : 1.5;
 }
 
-input {
+input,
+textarea {
   padding: 1rem;
+  margin-bottom: 0.3rem;
   width: 100%;
+  border-radius: 5px;
+}
+
+.pledge-form input {
+  background-color: $accent-color;
+  border: 2px solid #fefefe;
+  &[type="name"],
+  &[type="email"] {
+    color: #fefefe;
+    font-size: 1rem;
+  }
 }
 label {
   display : block;

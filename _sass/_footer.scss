@@ -1,0 +1,21 @@
+.footer-content span {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: $heading-font-family;
+  color: $primary-color;
+  font-size: 0.9rem;
+}
+.footer-content,
+.credits {
+  a {
+    color: #fefefe;
+    &:hover {
+      color: $secondary-shade;
+    }
+  }
+}
+
+.credits {
+  padding: 3rem 0;
+}

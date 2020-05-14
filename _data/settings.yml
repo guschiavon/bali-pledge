@@ -20,10 +20,10 @@ social:
   snapchat_url: 'https://snapchat.com'
   stackoverflow_url: 'https://stackoverflow.com'
 navigation:
-  menu_1_url: /about
-  menu_2_url: /portfolio
-  menu_3_url: /blog
-  menu_4_url: /contact
+  menu_1_url: '/#illustrated-quote-1'
+  menu_2_url: '/#pledge'
+  menu_3_url: '/#custom-message'
+  menu_4_url: '/#footer'
   menu_5_url:
   menu_6_url:
 # Brand identity
