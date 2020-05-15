@@ -41,9 +41,10 @@ $(document).ready(function(){
         }
     }
   });
+});
 
-
-  $("#pledge-form", "#message-form").submit(function(){
-    alert("Submitted");
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("Thank you for your pledge!");
   });
 });

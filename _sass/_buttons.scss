@@ -21,8 +21,25 @@
   }
 }
 
-button {
-  border-radius     : 0.3rem;
+button{
+  -webkit-border-radius     : 0.3rem;
+     -moz-border-radius     : 0.3rem;
+          border-radius     : 0.3rem;
+}
+
+.submit-button {
+  -webkit-transition        : 0.3s all;
+  -o-transition             : 0.3s all;
+  -moz-transition           : 0.3s all;
+  transition                : 0.3s all;
+  &:hover {
+    background-color        : #fbdaad;
+    -webkit-transition      : 0.3s all;
+    -o-transition           : 0.3s all;
+    -moz-transition         : 0.3s all;
+    transition              : 0.3s all;
+  }
+
 }
 
 // Button actions

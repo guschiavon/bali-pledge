@@ -106,7 +106,11 @@ label { display: block; margin-top: 1rem; color: #e9a547; font-size: 1.2rem; fon
 
 .button span:last-of-type { display: none; }
 
-button { border-radius: 0.3rem; }
+button { -webkit-border-radius: 0.3rem; -moz-border-radius: 0.3rem; border-radius: 0.3rem; }
+
+.submit-button { -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; }
+
+.submit-button:hover { background-color: #fbdaad; -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; }
 
 button.active { background-color: #fefefe; color: #e9a547; }
 
