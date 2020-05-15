@@ -32,6 +32,8 @@ button{
   -o-transition             : 0.3s all;
   -moz-transition           : 0.3s all;
   transition                : 0.3s all;
+  background-color          : #fefefe;
+  font-size                 : 1rem;
   &:hover {
     background-color        : #fbdaad;
     -webkit-transition      : 0.3s all;
