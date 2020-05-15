@@ -31,14 +31,11 @@
 
 @media (min-width: 320px) and (max-width: 480px)  {
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+    line-height: 1.2;
   }
   h2 {
     line-height: 1.2;
-  }
-  p,
-  .quote-content p {
-    font-size: 1.2rem;
   }
 
   .quote-name h3 {
@@ -63,6 +60,25 @@
   }
   .footer {
     padding: 2% 10%;
+  }
+  .header p {
+    width: 95%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 812px) {
+  p,
+  .quote-content p,
+  .header p {
+    font-size: 1.2rem;
+  }
+
+}
+@media (min-width: 320px) and (max-width: 380px) {
+  p,
+  .quote-content p,
+  .header p {
+    font-size: 1rem;
   }
 }
 
