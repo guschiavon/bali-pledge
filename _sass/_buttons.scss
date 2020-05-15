@@ -21,7 +21,33 @@
   }
 }
 
-button{
+.header-button {
+  font-family: $heading-font-family;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: $secondary-shade;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  transition: 0.3s all;
+  &:hover {
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    transition: 0.3s all;
+    background-color: $accent-color;
+    border-color: $accent-color;
+    color: #fefefe;
+  }
+}
+
+button {
   -webkit-border-radius     : 0.3rem;
      -moz-border-radius     : 0.3rem;
           border-radius     : 0.3rem;

@@ -106,6 +106,10 @@ label { display: block; margin-top: 1rem; color: #e9a547; font-size: 1.2rem; fon
 
 .button span:last-of-type { display: none; }
 
+.header-button { font-family: "Eczar", serif; letter-spacing: 2px; text-transform: uppercase; display: inline-block; color: #999999; padding: 0.5rem 1.5rem; border: 1px solid; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; }
+
+.header-button:hover { -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; background-color: #e9a547; border-color: #e9a547; color: #fefefe; }
+
 button { -webkit-border-radius: 0.3rem; -moz-border-radius: 0.3rem; border-radius: 0.3rem; }
 
 .submit-button { -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; background-color: #fefefe; font-size: 1rem; }
