@@ -1,0 +1,8 @@
+<div class="social-share">
+  <h3>Share the pledge</h3>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}" target="_blank" onclick="window.open(this.href,'targetWindow',`toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=600`);return false;" class="facebook social-icon">{%include essentials/social-icons-v2.html icon="Facebook"%}</a>
+  <a href="fb-messenger://share/?link={{site.url}}&app_id=810491679450734" target="_blank" class="messenger social-icon">{%include essentials/social-icons-v2.html icon="Messenger"%}</a>
+  <a href="https://twitter.com/intent/tweet?text=From%20%40v7academy%20%3A{{site.url}}" onclick="window.open(this.href,'targetWindow',`toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes, width=600, height=600`);return false;" target="_blank" class="twitter social-icon">{%include essentials/social-icons-v2.html icon="Twitter"%}</a>
+  <a href="https://api.whatsapp.com/send?text={{site.url}}" class="whatsapp social-icon">{%include essentials/social-icons-v2.html icon="WhatsApp"%}</a>
+  <a href="mailto:?&subject={{page.title}}{{site.title}}&body=Have%20a%20look%20at%20this%3A%20{{site.url}}" onclick="window.open(this.href,'targetWindow',`toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes, width=600, height=600`);return false;" class="email social-icon">{%include essentials/social-icons-v2.html icon="Email"%}</a>
+</div>

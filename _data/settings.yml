@@ -4,10 +4,10 @@ basics:
   description: To be in harmony with the local community, to protect Bali's natural resources, to respect the cultural and spiritual essence of Bali.
   site_base_url: 'https://mysite.com'
   site_logo_image: '/assets/bali-pledge-logo-02.svg'
-  site_thumb_image: 'assets/images/placeholder-001.jpg'
-  contact_email: 'example@me.com'
-  phone_number: "+555 555 5555"
-  address: 1 Main Street, Springfield 90009
+  site_thumb_image: 'assets/bali-pledge-logo-03.png'
+  contact_email: 'balipledge@gmail.com'
+  phone_number: ""
+  address: 'Ubud, Bali, Indonesia'
 social:
   facebook_url: 'https://facebook.com'
   instagram_url: 'https://instagram.com'
@@ -27,9 +27,6 @@ navigation:
   menu_5_url:
   menu_6_url:
 # Brand identity
-logos:
-  navbar_logo_image: '/assets/logos/your-logo.png'
-  footer_logo_image: '/assets/logos/your-logo-alternative.png'
 
 # Global colors. Put HEX values between quotes otherwise it will act as a comment in YAML
 colors:
@@ -47,9 +44,9 @@ fonts:
   design_font_family: "'Eczar', serif;"
 
 seo:
-  fb_app_id: 123456789
-  keywords: [keyword, seo, optimization]
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  fb_app_id:
+  keywords: [bali pledge, ubud, bali sustainable]
+  description: The Bali Pledge is a sustainability initiative aimed at raising awareness of preservation of the culture, land and customs of Bali to visitors and all residents.
 
 # Analytics & embeds
 configuration:
