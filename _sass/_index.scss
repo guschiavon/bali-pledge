@@ -1,10 +1,14 @@
 .header {
   background-image: url(/assets/images/agung.jpg);
   background-position: center;
-  background-size: cover;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+          background-size: cover;
 
   p {
     color: $secondary-shade;
+    width: 80%;
+    margin: auto;
   }
 }
 
@@ -34,48 +38,66 @@
 }
 
 .message-form {
-  width: 40%;
-  margin: auto;
+  width   : 40%;
+  margin  : auto;
   button {
     background-color  : $accent-color;
-    border: none;
+    border  : none;
   }
+}
 
+.pledgers-section {
+  position: relative;
+  .background-logo {
+    width: 100%;
+    opacity: 0.3;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
 }
 
 .pledgers {
   padding           : 3rem;
-  background-color  : #f2f2f2;
-  border-radius     : 10px;
+  background-color  : #e8e8e8;
+  box-shadow: 0 2px 10px 0px #888;
+  -webkit-border-radius     : 10px;
+     -moz-border-radius     : 10px;
+          border-radius     : 10px;
   width             : 80%;
   margin            : auto;
   .content {
-    font-style: italic;
+    font-style  : italic;
   }
 }
 
 .pledger-avatar {
   width           : 100px;
   height          : 100px;
-  border-radius   : 100%;
+  -webkit-border-radius   : 100%;
+     -moz-border-radius   : 100%;
+          border-radius   : 100%;
   margin          : auto;
   margin-bottom   : 1.5rem;
   img {
-    border-radius : 100%;
+    -webkit-border-radius : 100%;
+       -moz-border-radius : 100%;
+            border-radius : 100%;
   }
 }
 
 .section-icon {
-  width: 60px;
-  margin: 0 auto 2rem;
+  width   : 60px;
+  margin  : 0 auto 2rem;
 }
 
 .social-share {
-  padding: 2rem;
+  padding   : 2rem;
   a svg {
-    width: 50px;
-    height: auto;
-    padding: 0.5rem;
-    fill: #fefefe;
+    width   : 50px;
+    height  : auto;
+    padding : 0.5rem;
+    fill    : #fefefe;
   }
 }

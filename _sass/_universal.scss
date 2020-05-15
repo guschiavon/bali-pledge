@@ -2,6 +2,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #f5f5f5;
+}
 // Typography
 h1,
 h2,
@@ -47,7 +51,9 @@ textarea {
   padding: 1rem;
   margin-bottom: 0.3rem;
   width: 100%;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
 }
 
 .pledge-form input {

@@ -3,7 +3,7 @@ basics:
   site_title: Bali Pledge
   description: To be in harmony with the local community, to protect Bali's natural resources, to respect the cultural and spiritual essence of Bali.
   site_base_url: 'https://mysite.com'
-  site_logo_image: '/assets/bali.svg'
+  site_logo_image: '/assets/bali-pledge-logo.svg'
   site_thumb_image: 'assets/images/placeholder-001.jpg'
   contact_email: 'example@me.com'
   phone_number: "+555 555 5555"

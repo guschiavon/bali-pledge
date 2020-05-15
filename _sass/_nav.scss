@@ -15,6 +15,14 @@
   height: auto
 }
 
+.nav-logo-mobile img {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
 nav a {
   font-size      : 1rem;
   font-family    : $body-font-family;

@@ -1,21 +1,39 @@
-.footer-content span {
-  display: block;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-family: $heading-font-family;
-  color: $primary-color;
-  font-size: 0.9rem;
+.footer {
+  padding: 2% 15%;
 }
-.footer-content,
-.credits {
+
+.footer-logo svg {
+  width: 200px;
+
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  span {
+    display       : block;
+    margin-top    : 0.5rem;
+    margin-bottom : 0.5rem;
+    color         : $primary-color;
+    font-family   : $heading-font-family;
+    font-size     : 0.9rem;
+  }
+
+  p {
+    font-size : 1rem;
+  }
+}
+
+.credits,
+.footer-content {
   a {
-    color: #fefefe;
+    color : #fefefe;
+
     &:hover {
-      color: $secondary-shade;
+      color : $secondary-shade;
     }
   }
 }
 
 .credits {
-  padding: 3rem 0;
+  padding : 3rem 0;
 }

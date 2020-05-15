@@ -41,4 +41,9 @@ $(document).ready(function(){
         }
     }
   });
+
+
+  $("#pledge-form", "#message-form").submit(function(){
+    alert("Submitted");
+  });
 });
