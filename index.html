@@ -184,7 +184,7 @@ sections:
       <form id="_pledge-form_" action="" method="post" title="validate">
         <input type="name" name="name" value="Your Name" placeholder="Your name" />
         <input type="email" name="email" value="Your Email" placeholder="Your email" />
-        <button id="submit" type="button" name="button" class="submit-button"> validate my pledge</button>
+        <input id="submit" type="button" name="button" class="submit-button"> validate my pledge</input>
       </form>
       <div class="social-share">
         <h3>Share the pledge</h3>
@@ -198,9 +198,6 @@ sections:
   </div>
 </section>
 <section id="pledgers" class="padding-md pledgers-section">
-  <!-- <div class="background-logo">
-    {% include bali-pledge-logo-simple-background.svg %}
-  </div> -->
   <h2 class="center">Who has already pledged:</h2>
   <div class="owl-carousel owl-theme">
     {% for pledge in page.pledges %}
@@ -237,14 +234,14 @@ sections:
       <input type="name" name="name" value="Your Name" placeholder="Your name" />
       <input type="email" name="email" value="Your Email" placeholder="Your email" />
       <textarea name="textarea" rows="8" cols="80" placeholder="Your Message"></textarea>
-      <button id="submit" type="button" name="button" class="submit-button"> Send your pledge</button>
+      <input id="submit" type="button" name="button" class="submit-button"> Send your pledge</input>
     </form>
   </div>
 </section>
 <footer id="footer" class="bg-primary footer">
   <div class="padding-md">
     <div class="footer-logo">
-      {% include bali-pledge-logo-text.svg %}
+      {% include bali-pledge-logo.html style="TextLogo" %}
     </div>
     <h2 class="editable">
  	    This Pledge for Bali is a BGreener initiative.

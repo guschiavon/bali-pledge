@@ -42,9 +42,3 @@ $(document).ready(function(){
     }
   });
 });
-
-$(document).ready(function(){
-  $("form").submit(function(){
-    alert("Thank you for your pledge!");
-  });
-});
