@@ -96,3 +96,26 @@ button.active {
 .pledge-button {
   padding: 0.5rem 1.5rem;
 }
+
+.message-form .submit-button {
+  background-color: $accent-color;
+  color: whitesmoke;
+  border-color: $accent-color;
+  text-transform: uppercase;
+  font-family: $heading-font-family;
+  letter-spacing: 2px;
+  font-weight: normal;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  transition: 0.3s all;
+  &:hover {
+    background-color: none;
+    color: $accent-color;
+    border-color: $accent-color;
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+}
