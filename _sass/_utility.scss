@@ -25,6 +25,13 @@
   @include flex-left;
 }
 
+.flex-bottom {
+  @include flex-bottom;
+}
+.flex-bottom-left {
+  @include flex-bottom-left;
+}
+
 .full-height {
   height: 100vh;
 }

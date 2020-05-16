@@ -1,33 +1,32 @@
 .footer {
-  padding: 2% 15%;
+  padding : 2% 15%;
 }
 
-.footer-logo svg {
-  width: 200px;
-
-  margin-bottom: 1rem;
+.footer-logo {
+  display: inline-block;
+  margin-top: 2rem;
+  svg {
+    width         : 200px;
+    // margin-bottom : 2rem;
+  }
 }
 
 .footer-content {
-  span {
-    display       : block;
-    margin-top    : 0.5rem;
-    margin-bottom : 0.5rem;
-    color         : $primary-color;
-    font-family   : $heading-font-family;
-    font-size     : 0.9rem;
-  }
+  margin: 1.5rem auto;
 
+  .flex-bottom-left {
+    margin-top: 5rem;
+  }
   p {
     font-size : 1rem;
+    margin-bottom: 2rem;
   }
 }
 
 .credits,
 .footer-content {
   a {
-    color : #fefefe;
-
+    color : #ececec;
     &:hover {
       color : $secondary-shade;
     }
@@ -35,5 +34,37 @@
 }
 
 .credits {
-  padding : 3rem 0;
+  span {
+    display       : block;
+    margin-top    : 0.5rem;
+    color         : #797979;
+    font-family   : $heading-font-family;
+    font-size     : 0.7rem;
+  }
+}
+
+.footer-social {
+  margin-bottom: 2rem;
+  a {
+  padding: 0.2rem 0;
+  margin-right: 2rem;
+  display: inline;
+  svg {
+    width              : 45px;
+    height             : auto;
+    fill               : $primary-color;
+    -moz-transition    : 0.3s all;
+    -o-transition      : 0.3s all;
+    -webkit-transition : 0.3s all;
+    transition         : 0.3s all;
+
+    &:hover {
+      fill               : $secondary-shade;
+      -moz-transition    : 0.3s all;
+      -o-transition      : 0.3s all;
+      -webkit-transition : 0.3s all;
+      transition         : 0.3s all;
+    }
+  }
+}
 }

@@ -55,33 +55,51 @@
   display                 : -moz-box;
   display                 : -ms-flexbox;
   display                 : flex;
-  -webkit-box-align       : bottom;
-  -webkit-align-items     : bottom;
-    -moz-box-align        : bottom;
-      -ms-flex-align      : bottom;
-          align-items     : bottom;
+  -webkit-box-align       : flex-end;
+  -webkit-align-items     : flex-end;
+    -moz-box-align        : flex-end;
+      -ms-flex-align      : flex-end;
+          align-items     : flex-end;
   -webkit-box-pack        : center;
   -webkit-justify-content : center;
      -moz-box-pack        : center;
       -ms-flex-pack       : center;
           justify-content : center;
 }
-@mixin flex-bottom {
+@mixin flex-top {
   display                 : -webkit-box;
   display                 : -webkit-flex;
   display                 : -moz-box;
   display                 : -ms-flexbox;
   display                 : flex;
-  -webkit-box-align       : top;
-  -webkit-align-items     : top;
-    -moz-box-align        : top;
-      -ms-flex-align      : top;
-          align-items     : top;
+  -webkit-box-align       : flex-start;
+  -webkit-align-items     : flex-start;
+    -moz-box-align        : flex-start;
+      -ms-flex-align      : flex-start;
+          align-items     : flex-start;
   -webkit-box-pack        : center;
   -webkit-justify-content : center;
      -moz-box-pack        : center;
       -ms-flex-pack       : center;
           justify-content : center;
+}
+
+@mixin flex-bottom-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+     -moz-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+     -moz-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 // Transitions

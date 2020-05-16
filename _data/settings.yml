@@ -2,23 +2,16 @@
 basics:
   site_title: Bali Pledge
   description: To be in harmony with the local community, to protect Bali's natural resources, to respect the cultural and spiritual essence of Bali.
-  site_base_url: 'https://mysite.com'
+  site_base_url: 'https://balipledge.org'
   site_logo_image: '/assets/bali-pledge-logo-02.svg'
   site_thumb_image: 'assets/bali-pledge-logo-03.png'
   contact_email: 'balipledge@gmail.com'
   phone_number: ""
   address: 'Ubud, Bali, Indonesia'
 social:
-  facebook_url: 'https://facebook.com'
-  instagram_url: 'https://instagram.com'
-  instagram_handle: '@yourhandle'
-  twitter_url: 'https://twitter.com'
-  twitter_handle: '@yourhandle'
-  youtube_url: 'https://youtube.com'
-  github_url: 'https://github.com'
-  linkedin_url: 'https://linkedin.com'
-  snapchat_url: 'https://snapchat.com'
-  stackoverflow_url: 'https://stackoverflow.com'
+  facebook_url: 'https://facebook.com/balipledge'
+  instagram_url: 'https://instagram.com/balipledge'
+  instagram_handle: '@balipledge'
 navigation:
   menu_1_url: '/#illustrated-quote-1'
   menu_2_url: '/#pledge'
