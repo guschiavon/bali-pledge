@@ -59,11 +59,23 @@ textarea {
   background-color: $accent-color;
   border: 2px solid #fefefe;
   &[type="name"],
-  &[type="email"] {
-    color: #fefefe;
+  &[type="email"],
+  &::placeholder {
+    color: whitesmoke;
     font-size: 1rem;
   }
 }
+
+.message-form  {
+  input,
+  textarea {
+    font-size: 1rem;
+    &::placeholder {
+      font-size: 1rem;
+    }
+  }
+}
+
 label {
   display : block;
   margin-top: 1rem;

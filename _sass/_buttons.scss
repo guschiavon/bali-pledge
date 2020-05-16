@@ -53,13 +53,16 @@ button {
           border-radius     : 0.3rem;
 }
 
-.submit-button {
+input.submit-button {
   -webkit-transition        : 0.3s all;
   -o-transition             : 0.3s all;
   -moz-transition           : 0.3s all;
   transition                : 0.3s all;
   background-color          : #fefefe;
   font-size                 : 1rem;
+  font-family: $heading-font-family;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   &:hover {
     background-color        : #fbdaad;
     -webkit-transition      : 0.3s all;
@@ -67,9 +70,7 @@ button {
     -moz-transition         : 0.3s all;
     transition              : 0.3s all;
   }
-
 }
-
 // Button actions
 button.active {
   background-color  : #fefefe;
@@ -95,16 +96,22 @@ button.active {
 
 .pledge-button {
   padding: 0.5rem 1.5rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pledge-form .submit-button {
+  background-color: whitesmoke;
+  color: $accent-color;
+
 }
 
 .message-form .submit-button {
   background-color: $accent-color;
   color: whitesmoke;
   border-color: $accent-color;
-  text-transform: uppercase;
-  font-family: $heading-font-family;
-  letter-spacing: 2px;
-  font-weight: normal;
   -webkit-transition: 0.3s all;
   -o-transition: 0.3s all;
   -moz-transition: 0.3s all;
