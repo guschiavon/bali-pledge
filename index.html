@@ -9,22 +9,82 @@ second_highlight_image_alt_text: Bali ricefield image. Image © Gus Schiavon
 third_highlight_image: assets/images/bali-gus-schiavon-6.jpg
 third_highlight_image_alt_text: Balinese priest image. Image © Gus Schiavon
 pledges:
+  - name: Radiantly Alive
+    country: Bali
+    avatar_image: assets/images/Jasmine-Rafael-RadiantlyAlive-logo.jpg
+    alt-text: Radiantly Alive
+    message: >-
+      Bali is a magical island and we are so grateful for what it has given us and our yoga community. We’re all in to protect this beauty and culture for future generations!
   - name: RefillMyBottle
+    country: Bali
     avatar_image: assets/images/refillmybottle.jpg
     alt-text: RefillMyBottle Logo
     message: >-
       I pledge to help protect Bali's environment by providing access to clean drinkable water through the establishment of RefillStations
-  - name: Paulina
+  - name: Johnny Blundstone
+    country: Bali
+    avatar_image: assets/images/Johnny-BaliEcoStay-logo.jpg
+    alt-text: Bali Eco Stay
+    message: >-
+      Infinite growth on a finite planet is unsustainable... please sign THE PLEDGE !
+  - name: Thomas
+    company: Desa Seni Resort
+    country: Bali
+    avatar_image: assets/images/Thomas-DesaSeni-logo.jpg
+    alt-text: Desa Seni
+    message: >-
+      I Pledge to honor and respect all peoples ethnicities, religions, beliefs, ideas and opinions on the Island of Bali and beyond! Bali, the place of acceptance and understanding!
+  - name: Michael
+    company: Bali Aquaponics
+    country: Bali
+    avatar_image: assets/images/Michael-BaliAquaponics-logo.jpg
+    alt-text: Bali Aquaponics
+    message: >-
+      We pledge to conserve Bali's fresh water resources & have zero negative impact on Bali's beautiful green environment, meaning no concrete instead of lush green rice-fields.
+  - name: Thierry Cayot
+    company: Pest Hama
+    country: France
+    avatar_image: assets/images/Thierry-Cayot-PestHama-photo.jpg
+    alt-text: Pest Hama
+    message: >-
+      As a full member of the banjar Adat Sangketan, Penebel, Tabanan, my pledge to Bali follows strictly and fully the Awig-awig (custom law) of my village. I'm engaged as well to protect the spiritual culture of Bali as well as its natural environment.
+  - name: Mischa-Denise van den Toorn
+    company: Natural Bamboo Lady
+    country: Netherlands
+    avatar_image: assets/images/Mischa-NaturalBambooLady-logo.jpg
+    alt-text: Natural Bamboo Lady
+    message: >-
+      This Pledge is inline with my mind, body, soul and spirit. This is THE WAY i live my life. More than happy to sign this pledge and join this community With Love, Compassion and Gratitude
+  - name: Krishna Chieppa
+    country: Bali
+    company: Serenity Eco Guesthouse & Yoga
+    avatar_image: assets/images/KrishnaChieppa-Serenity-logo.jpg
+    alt-text: Serenity logo
+    message: >-
+      Serenity began with a vision to grow mind and body, go green, all with Serenity. From the very beginning, we have strived to live and work with our 5 missions (principles)
+  - name: RefillMyBottle
+    country: Bali
+    avatar_image: assets/images/refillmybottle.jpg
+    alt-text: RefillMyBottle Logo
+    message: >-
+      I pledge to help protect Bali's environment by providing access to clean drinkable water through the establishment of RefillStations
+  - name: Pauliina
+    company: Living Food Lab
+    country: Finland
     avatar_image: assets/images/paulina.jpg
-    alt-text: Paulina
+    alt-text: Pauliina
     message: >-
       As a visitor to Bali since 2001, and a business owner and mama to our Living Food Lab team since 2017, I pledge to focus my efforts on taking action that brings about more harmony with the nature of, spirit of, and community in Bali. Particularly, as an ethical vegan, I pledge to continue to be kind to all living beings, and run our restaurants in a way that is as supportive of Mother Earth as possible. I have always had a great respect and love for the spiritual essence of Bali, and pledge to remain respectfully curious and involved. As for the community, I pledge to continue to take care of our Bali family to the best of my ability.
   - name: Piet
+    company: Positive Impact Forever
+    country: South Africa
     avatar_image: assets/images/piet.jpg
     alt-text: Piet Van Zyl
     message: >-
       Great pledge - let’s all take care of Bali
   - name: Gus
+    company: Freelancer Web Developer
+    country: Brazil
     avatar_image: assets/images/gus.jpg
     alt-text: Gus Schiavon
     message: >-
@@ -58,7 +118,7 @@ pledges:
  	Tri Hita Karana - We Are One
  </h3>
  <p class="editable">
- 	
+
  </p>
   </div>
 </section>
@@ -207,6 +267,10 @@ pledges:
           {% include image.html  %}
         </div>
         <h4>{{pledge.name}}</h4>
+        {% if pledge.company %}
+        <h4>{{pledge.company}}</h4>
+        {% endif %}
+        <h4>{{pledge.country}}</h4>
         <div class="content">
           <p>
             {{pledge.message}}
@@ -231,6 +295,8 @@ pledges:
     <form id="message-form" action="/thank-you" method="get">
       <input type="name" name="name" placeholder="Your name" />
       <input type="email" name="email" placeholder="Your email" />
+      <input type="company" name="company" placeholder="Your company" />
+      <input type="country" name="country" placeholder="Where are you from" />
       <textarea type="message" name="message" rows="8" cols="80" placeholder="Your Message"></textarea>
       <input id="submit" type="submit" name="button" value="Send your pledge" class="submit-button" />
     </form>
