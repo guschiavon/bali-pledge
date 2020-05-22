@@ -2137,6 +2137,12 @@ nav a:last-of-type { margin: 0; }
 
 .pledge-content { position: relative; min-height: 150px; }
 
+.margin-bottom-1 { margin-bottom: 0.3rem; }
+
+.companies-pledge h2 { margin: 2rem auto; }
+
+.company-logo { width: 150px; filter: grayscale(1); margin: auto; padding: 1rem; }
+
 .footer { padding: 2% 15%; }
 
 .footer-logo { display: inline-block; margin-top: 2rem; }
