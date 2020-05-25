@@ -21,8 +21,8 @@ collections:
 defaults:
   -
     scope:
-      path: ["/posts", "/drafts"] # an empty string here means all files in the project
-      type: ["posts", "drafts"] # previously `post` in Jekyll 2.2.
+      path: "/posts" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: blog
       title:
