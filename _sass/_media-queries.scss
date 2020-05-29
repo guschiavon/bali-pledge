@@ -10,6 +10,9 @@
   .mobile-nav {
     display: inline-block;
   }
+  .lang-menu {
+    display: block;
+  }
   .desktop-nav {
     display: none;
   }
@@ -30,6 +33,11 @@
   }
   .quote-box {
     min-height: 700px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
 }
@@ -44,7 +52,7 @@
   }
 
   .quote-name h3 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     line-height: 1.3;
     text-align: center;
   }
@@ -109,5 +117,12 @@
   .quote-content p,
   .quote-name h3 {
     text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 1050px) {
+  nav a {
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
+    letter-spacing: 0;
   }
 }

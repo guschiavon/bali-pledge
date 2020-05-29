@@ -173,4 +173,10 @@ nav a {
 }
 .lang-menu {
   color: darkgray;
+  display: none;
+}
+
+a.lang {
+  margin: none;
+  border: 1px solid;
 }

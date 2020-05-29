@@ -118,7 +118,7 @@ label { display: block; margin-top: 1rem; color: #e9a547; font-size: 1.2rem; fon
 
 .button span:last-of-type { display: none; }
 
-.header-button { font-family: "Century Gothic", "CenturyGothic", sans-serif; letter-spacing: 2px; text-transform: uppercase; display: inline-block; color: #999999; padding: 0.5rem 1.5rem; border: 1px solid; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; }
+.header-button { font-family: "Century Gothic", "CenturyGothic", sans-serif; letter-spacing: 2px; text-transform: uppercase; display: inline-block; color: whitesmoke; padding: 1rem 1.5rem; border: 1px solid; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; }
 
 .header-button:hover { -webkit-transition: 0.3s all; -o-transition: 0.3s all; -moz-transition: 0.3s all; transition: 0.3s all; background-color: #e9a547; border-color: #e9a547; color: #fefefe; }
 
@@ -196,13 +196,17 @@ nav a:hover { color: #e9a547; -webkit-transition: 0.3s ease all; -o-transition: 
 
 .lang-menu a { color: darkgray; padding: 0.3rem; font-family: "Century Gothic", "CenturyGothic", sans-serif; }
 
-.lang-menu { color: darkgray; }
+.lang-menu { color: darkgray; display: none; }
+
+a.lang { margin: none; border: 1px solid; }
 
 .illustrated-quote, .illustrated-quote-2, .quote-content { position: relative; }
 
 .large-image-left, .large-image-right { height: 900px; }
 
-.quote-box { height: 900px; max-width: 100%; display: inline-block; padding: 17%; }
+.quote-box { height: 900px; max-width: 100%; padding: 17%; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -moz-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: center; -webkit-justify-content: center; -moz-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.quote-name { margin-bottom: 1rem; }
 
 .quote-name h3 { font-size: 3rem; margin: 0; }
 
@@ -2111,7 +2115,9 @@ nav a:hover { color: #e9a547; -webkit-transition: 0.3s ease all; -o-transition: 
 
 .header { background-image: url(/assets/images/bali-david-metcalf-5.jpg); background-position: center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; min-height: 95vh; }
 
-.header p { color: whitesmoke; width: 80%; margin: auto; }
+.header h1 { margin-top: 2rem; }
+
+.header p { color: whitesmoke; text-shadow: 0px 2px 4px #666; width: 80%; margin: auto; }
 
 .pledge-form { display: none; }
 
@@ -2181,16 +2187,18 @@ nav a:hover { color: #e9a547; -webkit-transition: 0.3s ease all; -o-transition: 
 
 @media (min-width: 1024px) and (max-width: 1440px) { .quote-content p { font-size: 1.5rem; } .quote-box { padding: 18%; } }
 
-@media (min-width: 300px) and (max-width: 600px) { .mobile-nav { display: inline-block; } .desktop-nav { display: none; } .nav-bar { padding: 0.5% 2%; } }
+@media (min-width: 300px) and (max-width: 600px) { .mobile-nav { display: inline-block; } .lang-menu { display: block; } .desktop-nav { display: none; } .nav-bar { padding: 0.5% 2%; } }
 
-@media (min-width: 480px) and (max-width: 1024px) { .quote-box { padding: 15%; } .large-image-left, .large-image-right { height: 700px; } .message-form { width: 80%; } .quote-box { min-height: 700px; } }
+@media (min-width: 480px) and (max-width: 1024px) { .quote-box { padding: 15%; } .large-image-left, .large-image-right { height: 700px; } .message-form { width: 80%; } .quote-box { min-height: 700px; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center; } }
 
-@media (min-width: 320px) and (max-width: 480px) { h1 { font-size: 4rem; line-height: 1.2; } h2 { line-height: 1.2; } .quote-name h3 { font-size: 2.3rem; line-height: 1.3; text-align: center; } .pledgers { width: 100%; padding: 2.5rem; } .message-form { width: 100%; margin-top: 1rem; } .large-image-left, .large-image-right { height: 400px; } .quote-box { padding: 7%; height: 500px; } .footer { padding: 2% 10%; } .header p { width: 95%; } .footer-branding, .footer-social { text-align: center; } .footer-social a { margin-right: 0; margin: 0 0.75rem; margin-bottom: 1rem; } .footer-social svg { width: 40px; } }
+@media (min-width: 320px) and (max-width: 480px) { h1 { font-size: 4rem; line-height: 1.2; } h2 { line-height: 1.2; } .quote-name h3 { font-size: 2rem; line-height: 1.3; text-align: center; } .pledgers { width: 100%; padding: 2.5rem; } .message-form { width: 100%; margin-top: 1rem; } .large-image-left, .large-image-right { height: 400px; } .quote-box { padding: 7%; height: 500px; } .footer { padding: 2% 10%; } .header p { width: 95%; } .footer-branding, .footer-social { text-align: center; } .footer-social a { margin-right: 0; margin: 0 0.75rem; margin-bottom: 1rem; } .footer-social svg { width: 40px; } }
 
 @media (min-width: 380px) and (max-width: 812px) { p, .quote-content p, .header p { font-size: 1.2rem; } }
 
 @media (min-width: 320px) and (max-width: 380px) { p, .quote-content p, .header p { font-size: 1rem; } }
 
 @media (min-width: 320px) and (max-width: 1024px) { .quote-content p, .quote-name h3 { text-align: center; } }
+
+@media (min-width: 600px) and (max-width: 1050px) { nav a { font-size: 0.8rem; margin-right: 0.6rem; letter-spacing: 0; } }
 
 /*# sourceMappingURL=main.css.map */

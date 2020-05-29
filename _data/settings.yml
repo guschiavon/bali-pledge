@@ -12,13 +12,7 @@ social:
   facebook_url: 'https://facebook.com/balipledge'
   instagram_url: 'https://instagram.com/balipledge'
   instagram_handle: '@balipledge'
-navigation:
-  menu_1_url: '/#illustrated-quote-1'
-  menu_2_url: '/#pledge'
-  menu_3_url: '/#custom-message'
-  menu_4_url: '/#footer'
-  menu_5_url:
-  menu_6_url:
+
 # Brand identity
 
 # Global colors. Put HEX values between quotes otherwise it will act as a comment in YAML
