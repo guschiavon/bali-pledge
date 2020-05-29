@@ -33,8 +33,8 @@ colors:
 fonts:
   fonts_code_block:  '<link href="https://fonts.googleapis.com/css?family=Eczar:600,700|Noto+Serif+KR:200,400,500&display=swap&subset=devanagari" rel="stylesheet">
 ' # Place between single quotes
-  body_font_family: "'Century Gothic', sans-serif;"
-  design_font_family: "'Century Gothic', sans-serif;"
+  body_font_family: "'Century Gothic', 'Didact Gothic', sans-serif;"
+  design_font_family: "'Century Gothic', 'Didact Gothic', sans-serif;"
 
 seo:
   fb_app_id:
