@@ -68,9 +68,9 @@ input, textarea { padding: 1rem; margin-bottom: 0.3rem; width: 100%; -webkit-bor
 
 label { display: block; margin-top: 1rem; color: #e9a547; font-size: 1.2rem; font-family: "Century Gothic", "CenturyGothic", sans-serif; text-transform: uppercase; }
 
-@font-face { font-family: 'Century-Gothic_9791'; src: url("Century-Gothic_9791.eot"); src: url("Century-Gothic_9791.eot?#iefix") format("embedded-opentype"), url("Century-Gothic_9791.woff2") format("woff2"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Century-Gothic_9791'; src: url("/assets/fonts/Century-Gothic_9791.eot"); src: url("/assets/fonts/Century-Gothic_9791.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Century-Gothic_9791.woff2") format("woff2"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: 'CenturyGothic'; src: url("CenturyGothic.svg#CenturyGothic") format("svg"), url("CenturyGothic.ttf") format("truetype"), url("CenturyGothic.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'CenturyGothic'; src: url("/assets/fonts/CenturyGothic.svg#CenturyGothic") format("svg"), url("/assets/fonts/CenturyGothic.ttf") format("truetype"), url("/assets/fonts/CenturyGothic.woff") format("woff"); font-weight: normal; font-style: normal; }
 
 .padding-lg { padding: 8%; }
 
