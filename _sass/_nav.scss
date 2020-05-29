@@ -29,8 +29,15 @@ nav a {
   text-transform : uppercase;
   padding        : 0.25rem;
   margin-right   : 1rem;
+  color          : darkgray;
+  letter-spacing : 2px;
+  @include transition;
   &:last-of-type {
     margin       : 0;
+  }
+  &:hover {
+    color: $accent-color;
+    @include transition;
   }
 }
 
