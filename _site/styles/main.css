@@ -194,11 +194,15 @@ nav a:hover { color: #e9a547; -webkit-transition: 0.3s ease all; -o-transition: 
 
 .mobile-menu .menu-social a svg { width: 20px; fill: white; }
 
+.lang-menu a { color: darkgray; padding: 0.3rem; font-family: "Century Gothic", "CenturyGothic", sans-serif; }
+
+.lang-menu { color: darkgray; }
+
 .illustrated-quote, .illustrated-quote-2, .quote-content { position: relative; }
 
 .large-image-left, .large-image-right { height: 900px; }
 
-.quote-box { height: 900px; max-width: 100%; display: inline-block; padding: 20%; }
+.quote-box { height: 900px; max-width: 100%; display: inline-block; padding: 17%; }
 
 .quote-name h3 { font-size: 3rem; margin: 0; }
 
