@@ -35,12 +35,11 @@ defaults:
       tags: []
       keywords: []
       sections:
-uploads_dir: "/assets/images"
+uploads_dir: "assets/images"
 # Plugins installed
 plugins:
   - jekyll-sitemap
   - jekyll-responsive-image
-  - jekyll-archives
   - jekyll-webp
 
 # Configuration of the jekyll-responsive-image plugin
@@ -54,21 +53,6 @@ responsive_image:
     - width: 1400
   base_path: assets/images
   output_path_format: assets/images/srcset/%{width}/%{basename}
-
-# Configuration of the jekyll-archives plugin
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive
-    tag: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tags/:name/'
-    category: '/categories/:name/'
 
 # Configuration for the WebP Generator Plugin
 webp:
