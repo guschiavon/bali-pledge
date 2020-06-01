@@ -149,31 +149,31 @@ pledges:
     message: Awesome initiative!
 companies:
   - name: Desa Seni
-    logo: assets/images/Thomas-DesaSeni-logo.jpg
+    logo_image: assets/images/Thomas-DesaSeni-logo.jpg
   - name: Pest Hama
-    logo: assets/images/Thierry-Cayot-PestHama-logo.jpg
+    logo_image: assets/images/Thierry-Cayot-PestHama-logo.jpg
   - name: RefillMyBottle
-    logo: assets/images/refillmybottle.jpg
+    logo_image: assets/images/refillmybottle.jpg
   - name: Bali Eco Stay
-    logo: assets/images/Johnny-BaliEcoStay-logo.jpg
+    logo_image: assets/images/Johnny-BaliEcoStay-logo.jpg
   - name: Serenity Eco Stay
-    logo: assets/images/KrishnaChieppa-Serenity-logo.jpg
+    logo_image: assets/images/KrishnaChieppa-Serenity-logo.jpg
   - name: Natural Bamboo Lady
-    logo: assets/images/Mischa-NaturalBambooLady-logo.jpg
+    logo_image: assets/images/Mischa-NaturalBambooLady-logo.jpg
   - name: Social Impakt
-    logo: assets/images/Jeroen-van-Overbeek-SocialImpakt-logo.jpg
+    logo_image: assets/images/Jeroen-van-Overbeek-SocialImpakt-logo.jpg
   - name: Radiantly Alive
-    logo: assets/images/Jasmine-Rafael-RadiantlyAlive-logo.jpg
+    logo_image: assets/images/Jasmine-Rafael-RadiantlyAlive-logo.jpg
   - name: Diving4images
-    logo: assets/images/Graham-Abbott-Diving4Images-logo.jpg
+    logo_image: assets/images/Graham-Abbott-Diving4Images-logo.jpg
   - name: David Metcalf
-    logo: assets/images/David-Metcalf-logo.png
+    logo_image: assets/images/David-Metcalf-logo.png
   - name: Seven Stones
-    logo: assets/images/Andrzej-Barski-Seven-Stones-logo.jpg
+    logo_image: assets/images/Andrzej-Barski-Seven-Stones-logo.jpg
   - name: Bali Aquaponics
-    logo: assets/images/Michael-BaliAquaponics-logo.jpg
+    logo_image: assets/images/Michael-BaliAquaponics-logo.jpg
   - name: Living Food Lab
-    logo: assets/images/living-food-lab.jpg
+    logo_image: assets/images/living-food-lab.jpg
 ---
 
 <main class="padding-lg flex-center header">
@@ -371,7 +371,7 @@ companies:
       {% for company in page.companies %}
       <div class="col-2_sm-6-middle">
         <div class="company-logo">
-          <img src="{{company.logo}}" alt="{{company.name}}" />
+          <img src="{{company.logo_image}}" alt="{{company.name}}" />
         </div>
       </div>
       {% endfor %}
