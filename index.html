@@ -347,7 +347,7 @@ companies:
     <div class="pledge padding-md">
       <div class="pledgers center">
         <div class="pledger-avatar">
-          {% assign path = pledge.avatar_image %}
+          {% assign path = pledge.avatar_image | replace: '/assets' , 'assets' %}
           {% assign alt = pledge.alt-text %}
           {% include image.html  %}
         </div>
