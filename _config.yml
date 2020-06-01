@@ -35,34 +35,7 @@ defaults:
       tags: []
       keywords: []
       sections:
-
-# Sections (Page blocks)
-sections: []
-_array_structures:
-  sections:
-    - label: Two Image Grid
-      description: A responsive 2-column, 2-row grid with images and paragraphs
-      icon: ballot
-      value:
-        _id: 2_image_grid
-        row_1_content:
-        box_1_image:
-        box_1_image_alt_text:
-        row_2_content:
-        box_2_image:
-        box_2_image_alt_text:
-    - label: Three Image Gallery
-      description: A responsive 3-image gallery with large and small images
-      icon: collections
-      value:
-        _id: 3_image_gallery
-        gallery_large_image:
-        gallery_large_image_alt_text:
-        gallery_box_1_image:
-        gallery_box_1_image_alt_text:
-        gallery_box_2_image:
-        gallery_box_2_image_alt_text:
-
+uploads_dir: "/assets/images"
 # Plugins installed
 plugins:
   - jekyll-sitemap
