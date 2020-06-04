@@ -35,7 +35,9 @@ defaults:
       tags: []
       keywords: []
       sections:
-uploads_dir: "/assets/images/:title"
+
+uploads_dir: "assets/images/:title"
+
 # Plugins installed
 plugins:
   - jekyll-sitemap
