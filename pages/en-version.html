@@ -134,7 +134,7 @@ pledges:
     message: >-
       At Pesthama, we pledge to help sustain the environment by promoting
       plant-based solutions, such as Neem Oil, as an alternative to chemical
-      compounds for: pest control, organic agriculture and permaculture, and 
+      compounds for: pest control, organic agriculture and permaculture, and
       health and cosmetics.  Providing support to local communities matters to
       us: we strive to raise awareness about environmental protection,
       sustainable constructions, and to help develop organic agriculture in
@@ -229,7 +229,7 @@ companies:
     <div class="grid-noGutter">
         <div class="col-6_md-12">
             <div class="large-image-left">
-                {% assign path = page.first_highlight_image %}
+                {% assign path = page.first_highlight_image | replace: "/assets" , "assets" %}
                 {% assign alt = page.first_highlight_image_alt_text %}
                 {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
             </div>
@@ -254,7 +254,7 @@ companies:
     <div class="grid-noGutter-reverse">
         <div class="col-6_md-12">
             <div class="large-image-left">
-                {% assign path = page.second_highlight_image %}
+                {% assign path = page.second_highlight_image | replace: "/assets" , "assets" %}
                 {% assign alt = page.second_highlight_image_alt_text %}
                 {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
             </div>
@@ -279,7 +279,7 @@ companies:
     <div class="grid-noGutter">
         <div class="col-6_md-12">
             <div class="large-image-left">
-                {% assign path = page.third_highlight_image %}
+                {% assign path = page.third_highlight_image | replace: "/assets" , "assets" %}
                 {% assign alt = page.third_highlight_image_alt_text %}
                 {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
             </div>
