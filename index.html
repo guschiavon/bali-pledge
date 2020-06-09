@@ -227,7 +227,7 @@ companies:
  	Tri Hita Karana - Tiga Penyebab Kesejahteraan
  </h3>
  <p class="editable">
- 	
+
  </p>
   </div>
 </section>
@@ -235,7 +235,7 @@ companies:
   <div class="grid-noGutter">
     <div class="col-6_md-12">
       <div class="large-image-left">
-        {% assign path = page.first_highlight_image %}
+        {% assign path = page.first_highlight_image | replace: "/assets", "assets" %}
         {% assign alt = page.first_highlight_image_alt_text %}
         {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
       </div>
@@ -260,7 +260,7 @@ companies:
   <div class="grid-noGutter-reverse">
     <div class="col-6_md-12">
       <div class="large-image-left">
-        {% assign path = page.second_highlight_image %}
+        {% assign path = page.second_highlight_image | replace: "/assets", "assets" %}
         {% assign alt = page.second_highlight_image_alt_text %}
         {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
       </div>
@@ -285,7 +285,7 @@ companies:
   <div class="grid-noGutter">
     <div class="col-6_md-12">
       <div class="large-image-left">
-        {% assign path = page.third_highlight_image %}
+        {% assign path = page.third_highlight_image | replace: "/assets", "assets" %}
         {% assign alt = page.third_highlight_image_alt_text %}
         {% include image.html path = page.highlight_image alt = page.highlight_image_alt_text %}
       </div>
